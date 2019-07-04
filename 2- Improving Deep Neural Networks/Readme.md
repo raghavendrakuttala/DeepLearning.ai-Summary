@@ -108,7 +108,7 @@ Here are the course summary as its given on the course [link](https://www.course
   - Best:
     - Training error: 0.5%
     - Test error: 1%
-  - These Assumptions came from that human has 0% error. If the problem isn't like that you'll need to use human error as baseline.
+  - These Assumptions came from that human has 0% error. If the problem isn't like that you'll need to use human error as baseline -- if human error is 15 % then 2nd case is perfectly fine without having any bias.
 
 ### Basic Recipe for Machine Learning
 
