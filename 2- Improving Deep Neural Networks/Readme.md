@@ -468,7 +468,7 @@ Implications of L2-regularization on:
 
 - Intuitions:   
     ![](Images/05-_exponentially_weighted_averages_intuitions.png)
-- We can implement this algorithm with more accurate results using a moving window. But the code is more efficient and faster using the exponentially weighted averages algorithm.
+- We can implement this algorithm with more accurate results using a moving window. But the code is more efficient and faster using the exponentially weighted averages algorithm. because we can use previous one to compute next one, not like taking average everytime of the each values.
 - Algorithm is very simple:
   ```
   v = 0
